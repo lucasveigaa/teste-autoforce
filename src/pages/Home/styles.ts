@@ -86,3 +86,9 @@ export const ContainerVideo = styled.div`
 
   }
 `;
+
+export const LawfulText = styled.div`
+  margin-top: 2.5rem;
+  font-size: 0.875rem;
+  margin-bottom: 4rem;
+`

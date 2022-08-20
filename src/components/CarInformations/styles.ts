@@ -85,6 +85,10 @@ export const ContainerHighlights = styled.div`
     display: flex;
   }
 
+  img {
+    margin-right: 1rem;
+  }
+
   span {
     font-weight: 700;
     color: #3754e2;
