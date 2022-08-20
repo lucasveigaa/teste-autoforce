@@ -35,11 +35,11 @@ export const Container = styled.header`
   }
 `;
 
-interface PropsA {
+interface HyperLinkProps {
   variant: "blue" | "green";
 }
 
-export const HyperLink = styled.a<PropsA>`
+export const HyperLink = styled.a<HyperLinkProps>`
   font-weight: 700;
   color: #fff;
   text-decoration: none;

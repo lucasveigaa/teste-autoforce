@@ -18,8 +18,6 @@ export const ContainerContent1 = styled.div`
   display: flex;
   flex-direction: column;
 
-
-
   span {
     border-left: 3px solid #e5e5e5;
     padding-left: 0.625rem;
@@ -29,9 +27,9 @@ export const ContainerContent1 = styled.div`
     margin-top: 1.5rem;
 
     @media (max-width: 700px) {
-    width: 85%;
-    margin: 0 auto;
-  }
+      width: 85%;
+      margin: 0 auto;
+    }
   }
 `;
 
@@ -93,7 +91,6 @@ export const ContainerHighlights = styled.div`
     font-weight: 700;
     color: #3754e2;
   }
-
 `;
 
 export const SubContainerHighlights = styled.div`
