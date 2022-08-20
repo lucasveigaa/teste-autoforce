@@ -1,4 +1,5 @@
 import { CartInformations } from "../../components/CarInformations";
+import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import {
   ContainerDescription,
@@ -67,6 +68,7 @@ export function Home() {
           </p>
         </LawfulText>
       </MainContainer>
+      <Footer />
     </>
   );
 }

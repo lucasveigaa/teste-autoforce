@@ -80,10 +80,9 @@ export const ContainerVideo = styled.div`
     margin-top: 2.125rem;
     height: 623px;
 
-    @media (max-width: 700px){
+    @media (max-width: 700px) {
       height: 400px;
     }
-
   }
 `;
 
@@ -91,4 +90,4 @@ export const LawfulText = styled.div`
   margin-top: 2.5rem;
   font-size: 0.875rem;
   margin-bottom: 4rem;
-`
+`;
