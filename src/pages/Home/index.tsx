@@ -1,6 +1,6 @@
 import { CartInformations } from "../../components/CarInformations";
 import { Header } from "../../components/Header";
-import { ContainerDescription, MainContainer, SubContainer } from "./styles";
+import { ContainerDescription, ContainerVideo, MainContainer, SubContainer } from "./styles";
 
 export function Home() {
   return (
@@ -39,6 +39,10 @@ export function Home() {
             levemente rebaixado.
           </p>
         </ContainerDescription>
+        <ContainerVideo>
+          <strong>Conheça o BMW Série 4 Cabrio</strong>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/cFyrTEYyq64" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </ContainerVideo>
       </MainContainer>
     </>
   );

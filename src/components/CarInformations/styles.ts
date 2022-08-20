@@ -18,10 +18,7 @@ export const ContainerContent1 = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 700px) {
-    width: 75%;
-    margin: 0 auto;
-  }
+
 
   span {
     border-left: 3px solid #e5e5e5;
@@ -30,6 +27,11 @@ export const ContainerContent1 = styled.div`
 
   img {
     margin-top: 1.5rem;
+
+    @media (max-width: 700px) {
+    width: 85%;
+    margin: 0 auto;
+  }
   }
 `;
 
@@ -88,9 +90,6 @@ export const ContainerHighlights = styled.div`
     color: #3754e2;
   }
 
-  img {
-    margin-right: 1rem;
-  }
 `;
 
 export const SubContainerHighlights = styled.div`
