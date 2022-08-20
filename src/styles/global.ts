@@ -11,5 +11,9 @@ export const GLobalStyle = createGlobalStyle`
     }
     body, input, textarea, button {
        font-family: 'Open Sans', sans-serif;
+
+       @media (max-width: 768px){
+        font-size: 87.5%;
+       }
     }
 `;
