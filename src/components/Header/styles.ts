@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   display: flex;
-  justify-content: space-around;
-  padding: 1.5rem 0;
+  justify-content: space-between;
+  padding: 1.5rem 10.3rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
+    padding: 1.5rem 0;
     flex-direction: column;
     align-items: center;
     gap: 1rem;

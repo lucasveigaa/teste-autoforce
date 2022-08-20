@@ -1,15 +1,13 @@
-import { Header } from "./components/Header"
-import { GLobalStyle } from "./styles/global"
-
+import { Home } from "./pages/Home";
+import { GLobalStyle } from "./styles/global";
 
 function App() {
-
   return (
     <>
-     <Header />
-     <GLobalStyle />
+      <Home />
+      <GLobalStyle />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

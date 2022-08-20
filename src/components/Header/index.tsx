@@ -17,7 +17,11 @@ export function Header() {
           <FaPhoneAlt color="#FFF" />
           LIGUE AGORA
         </HyperLink>
-        <HyperLink target="_blank" href="https://wa.me/5571999999999" variant="green">
+        <HyperLink
+          target="_blank"
+          href="https://wa.me/5571999999999"
+          variant="green"
+        >
           <FaWhatsapp />
           WHATSAPP
         </HyperLink>
